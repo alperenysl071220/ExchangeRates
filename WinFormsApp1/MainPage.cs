@@ -29,5 +29,11 @@ namespace ExcahngeRates
             ExchangeCalculator exchangeCalculator = new ExchangeCalculator();
             exchangeCalculator.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            GoldPrice goldPrice = new GoldPrice();
+            goldPrice.Show();
+        }
     }
 }
